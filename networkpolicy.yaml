@@ -16,10 +16,10 @@ metadata:
 spec:
   podSelector: {}
   policyTypes:
-    - Ingress
+  - Ingress
   ingress:
   - from:
     - ipBlock:
-         cidr: 10.132.0.4/24
+        cidr: 10.132.0.4/24
 
     
