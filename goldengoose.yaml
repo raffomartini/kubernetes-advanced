@@ -36,9 +36,7 @@ spec:
         image: dippynark/goldengoose
         resources:
           requests:
-            cpu: "150m"
-          limits:
-            cpu: "150m"
+            cpu: "100m"
         ports:
         - containerPort: 8000
         readinessProbe:
