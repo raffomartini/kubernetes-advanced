@@ -36,10 +36,8 @@ spec:
         image: dippynark/goldengoose
         resources:
           requests:
-            memory: "128Mi"
             cpu: "150m"
           limits:
-            memory: "128Mi"
             cpu: "150m"
         ports:
         - containerPort: 8000
